@@ -491,15 +491,16 @@ h1-text h2 h3 h4 h5 h6 {
   box-shadow: 0 0 16px 0 rgba(30, 50, 77, 0.16);
 }
 
-.form-place2 .btn-primary {
+/* a.btn-primary {
   background-color: rgb(10, 111, 251);
   border: 0px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 0 0 16px 0 rgba(30, 50, 77, 0.16);
-}
+  margin: 0;
+} */
 
-.company-name-next {
+a.company-name-next {
   font-family: "Lato";
   font-size: 23px;
   font-weight: 500;
@@ -507,7 +508,13 @@ h1-text h2 h3 h4 h5 h6 {
   text-align: left;
   color: rgb(246, 246, 246);
   padding: 6px 36px;
-  margin: auto;
+  margin:0 auto;
+  background-color: rgb(10, 111, 251);
+  border: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 0 16px 0 rgba(30, 50, 77, 0.16);
+
 }
 
 .form-place .h1-text {
@@ -752,6 +759,10 @@ hr {
   padding-left: 26px;
   margin-bottom: 20px;
 }
+
+/* .button a {
+  color: white;
+} */
 
 .button-div {
   text-align: center;
